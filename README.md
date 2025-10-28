@@ -12,7 +12,7 @@
 ---
 
 ## 📚 Table of Contents  
-1. [Overview](#overview)  
+1. [Overview](#sec-overview) 
 2. [Project Vision](#project-vision)  
 3. [Architecture](#architecture)  
 4. [Data & Preprocessing](#data--preprocessing)  
@@ -27,7 +27,7 @@
 
 ---
 
-## 🔍 Overview  
+<h2 id="sec-overview">🔍 Overview</h2>  
 
 In the competitive world of subscription-based services, losing a single loyal customer can ripple into significant revenue loss. Businesses often react **after** the customer has already left — ChurnVision AI aims to change that.  
 
