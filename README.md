@@ -13,17 +13,17 @@
 
 ## 📚 Table of Contents  
 1. [Overview](#sec-overview) 
-2. [Project Vision](#project-vision)  
-3. [Architecture](#architecture)  
-4. [Data & Preprocessing](#data--preprocessing)  
-5. [Feature Engineering](#feature-engineering)  
-6. [Modeling Approach](#modeling-approach)  
-7. [Evaluation & Results](#evaluation--results)  
-8. [Key Visual Insights](#key-visual-insights)  
-9. [How to Run](#how-to-run)  
-10. [Future Enhancements](#future-enhancements)  
-11. [License](#license)  
-12. [Author](#author)  
+2. [Project Vision](#sec-vision)
+3. [Architecture](#sec-arch)
+4. [Data & Preprocessing](#sec-data)
+5. [Feature Engineering](#sec-fe)
+6. [Modeling Approach](#sec-modeling)
+7. [Evaluation & Results](#sec-results)
+8. [Key Visual Insights](#sec-visuals)
+9. [How to Run](#sec-run)
+10. [Future Enhancements](#sec-future)
+11. [License](#sec-license)
+12. [Author](#sec-author)
 
 ---
 
@@ -46,7 +46,7 @@ The end goal: turn reactive retention strategies into **proactive business intel
 
 ---
 
-## 🎯 Project Vision  
+<h2 id="sec-vision">🎯 Project Vision</h2> 
 
 The vision behind ChurnVision AI is simple yet ambitious —  
 to build an interpretable, modular, and production-ready pipeline that helps organizations:  
@@ -60,7 +60,7 @@ ChurnVision AI stands as a fusion of technical precision and business impact —
 
 ---
 
-## 🎯 Project Objectives  
+<h2 id="sec-objectives">🎯 Project Objectives</h2> 
 
 Modern businesses lose millions every year due to silent customer churn — the type that happens before you even realize it’s coming.  
 **ChurnVision AI** was built with a clear mission: to transform reactive churn management into **predictive retention intelligence**.  
@@ -83,7 +83,7 @@ Every module, from preprocessing to ensemble fusion, works together to form a si
 
 ---
 
-## 🧩 Architecture  
+<h2 id="sec-arch">🧩 Architecture</h2>  
 
 The architecture of **ChurnVision AI** has been carefully structured for clarity, modularity, and extensibility.  
 Each component plays a defined role in the end-to-end workflow — from ingestion to prediction.  
@@ -107,7 +107,7 @@ Ultimately, this architecture transforms ChurnVision AI from a simple ML script 
 ---
 
 
-## 🧹 Data & Preprocessing  
+<h2 id="sec-data">🧹 Data & Preprocessing</h2> 
 
 Data is the heart of any intelligent system — and in **ChurnVision AI**, the quality of insights begins with the precision of preparation.  
 This phase ensures that every record is not only cleaned but also contextualized for machine learning.  
@@ -142,7 +142,7 @@ This preprocessing pipeline lays the foundation for reliable modeling — ensuri
 
 ---
 
-## ⚙️ Feature Engineering  
+<h2 id="sec-fe">⚙️ Feature Engineering</h2>  
 
 Feature engineering in **ChurnVision AI** goes beyond generating synthetic fields — it’s about creating *meaningful behavioral variables* that reflect how customers interact with services.  
 
@@ -177,7 +177,7 @@ Each retained feature contributes both **statistical power** and **interpretive 
 Together, these processes ensure **ChurnVision AI** doesn’t just fit a model — it understands the story behind every data point.
 
 
-## 🤖 Modeling Approach  
+<h2 id="sec-modeling">🤖 Modeling Approach</h2>  
 
 The intelligence behind **ChurnVision AI** lies in its modular and multi-perspective approach to learning.  
 Rather than relying on a single algorithm, the system leverages multiple analytical modules — each designed to uncover a unique aspect of customer behavior.  
@@ -206,7 +206,7 @@ ChurnVision AI transforms churn prediction into a **data-driven narrative** rath
 
 ---
 
-## 📊 Evaluation & Results  
+<h2 id="sec-results">📊 Evaluation & Results</h2> 
 
 Evaluating **ChurnVision AI** involved a blend of statistical rigor and business interpretation.  
 Each classifier was tested using stratified cross-validation, ensuring consistent class balance across folds.  
@@ -242,7 +242,7 @@ it’s a reflection of learned behavioral dynamics, empowering businesses to act
 
 ---
 
-## 🧠 Key Visual Insights  
+<h2 id="sec-visuals">🧠 Key Visual Insights</h2>  
 
 Visual analytics play a central role in **ChurnVision AI** — transforming raw metrics into clear, interpretable patterns that help both data teams and decision-makers understand what drives customer churn.  
 The following visuals represent the heart of this interpretability layer.  
@@ -280,7 +280,7 @@ ensuring that predictions aren’t just accurate, but also explainable and repea
 
 ---
 
-## ⚙️ How to Run  
+<h2 id="sec-run">⚙️ How to Run</h2>
 
 Setting up **ChurnVision AI** locally is quick and developer-friendly.  
 The repository follows a clean modular structure, allowing you to experiment, extend, or plug in your own models with minimal effort.  
@@ -316,7 +316,7 @@ Each notebook builds upon the outputs of the previous one, ensuring a seamless *
 
 ---
 
-## 🚀 Future Enhancements  
+<h2 id="sec-future">🚀 Future Enhancements</h2> 
 
 ChurnVision AI is built with modularity and scalability in mind — ready to evolve into a full-fledged production system.  
 Below are upcoming improvements that will enhance interpretability, automation, and cross-domain applicability:  
